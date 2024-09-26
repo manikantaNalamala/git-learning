@@ -17,7 +17,7 @@ import com.example.couponsystem.model.Cart;
 import com.example.couponsystem.service.CouponApplicationService;
 
 @RestController
-@RequestMapping("/coupons") 	 
+@RequestMapping("/coupon") 	 
 public class CouponController {
 	@Autowired
 	private CouponApplicationService couponService;
